@@ -1,0 +1,90 @@
+*{
+	text-align: center;
+	transition:  all 400ms ease;
+	font-family: Source Code Pro;
+	font-style: normal;
+	/* font-weight: bold; */
+}
+body{
+	background-image: url('https://www.psdgraphics.com/wp-content/uploads/2022/06/luxury-black-wood-texture-768x512.jpg');
+	transition: 500ms;
+	color: white;
+	text-align: center;
+	
+}
+.meme-generator {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+.meme-generator img {
+	height: 430px;
+	object-fit: cover;
+	transition:  all 400ms ease;
+	border-radius: 10px;
+	max-width: 600px;
+}
+
+.generate-meme-btn {
+	padding: 8px 20px;
+	border: none;
+	border-left: 4px solid #222;
+	border-right: 4px solid #222;
+	margin: 24px 0;
+	font-size: 20px;
+	color: #f64d4d;
+	cursor: pointer;
+	transition:  all 400ms ease;
+	border-radius: 10px;
+	
+}
+
+.generate-meme-btn:hover {
+	padding: 8px 26px;
+	border-left: 8px solid #222;
+	border-right: 8px solid #222;
+	letter-spacing: 3px;
+	background: blueviolet;
+	color: white;
+}
+
+.meme-generator .meme-author {
+	margin: 8px;
+}
+
+
+.hovering{
+	transform: scale(1.1);
+	transition: 300ms;
+}
+
+.spinner{
+	margin: auto;
+}
+
+.spinner > img{
+	margin-top: 10%;
+	height: 50px;
+	animation: rotate ease 2s infinite;
+}
+
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg)
+	}
+}
+
+
+.troll img{
+	position: fixed;
+	top: 10px;
+	left: 0;
+	height: 50px;
+	width: 50px;
+}
+.troll img:hover{
+	transform: translateX(10px)
+}
