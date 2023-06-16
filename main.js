@@ -35,8 +35,9 @@ const generateMeme = () => {
 };
 
 generateMemeBtn.addEventListener("click", generateMeme);
-
-generateMeme();
+setTimeout(() => {
+	generateMeme();
+}, 2000)
 
 memeImage.addEventListener('mouseover', () => {
 	memeImage.classList.toggle('hovering')
@@ -47,4 +48,3 @@ memeImage.addEventListener('mouseleave', () => {
 	memeImage.classList.remove('hovering')
 })
 
-const dot = document.querySelectorAll('.dot')
